@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+
+.char-one-part1{
+    background-color: black;
+    width: 40px;
+    height: 80px;
+    border: 3px;
+    display: block;
+    border-radius: 10px;
+    transform: rotate(20);
+}
