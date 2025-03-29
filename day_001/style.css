@@ -5,20 +5,51 @@ body {
 
 
 .char-one-part1{
-    background-color: black;
-    width: 40px;
+    background-color: blue;
+    width: 47px;
     height: 80px;
     border: 3px;
     display: block;
     border-radius: 10px;
-    transform: rotate(45deg);
+    transform: rotate(55deg);
+    position: relative;
+    left: -30px;
+    top: 9px;
+    right: 50px;
 }
 
 .char-one-part2{
-  background-color: black;
+  background-color: blue;
+  position: relative;
   width: 40px;
-  height: 80px;
+  height: 200px;
   border: 3px;
   display: block;
   border-radius: 10px;
+  top: -70px
+}
+
+.ziro {
+  margin-bottom: auto;
+  margin-top: auto;
+  width: 165px;
+  height: 165px;
+  margin-left: -20px;
+  border: 1px solid rgba(128, 128, 128, 0.781);
+  border-radius: 99999px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ziro div {
+  width: 50%;
+  height: 50%;
+  border-radius: 99999px;
+  background: linear-gradient(
+    50deg,
+    rgb(68, 68, 255),
+    rgb(158, 158, 255)
+  );
+  border: 1px solid rgba(128, 128, 128, 0.781);
 }
